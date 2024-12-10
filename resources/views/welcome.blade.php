@@ -23,7 +23,7 @@
                 <div>
                     <form action="{{ route('login') }}" method="POST">
                         @csrf
-                        <input type="hidden" class="form-control" name="email" value="sunprog1c@gmail.com" />
+                        <input type="hidden" class="form-control" name="email" value="sunprog.php@gmail.com" />
                         <input type="hidden" class="form-control" name="password" value="12345678" />
                         <button type="submit" class="btn btn-block btn-success btn-sm">Enter</button>
                     </form>
